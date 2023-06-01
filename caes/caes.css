@@ -1,0 +1,39 @@
+:root {
+    --background-color: #F6F6F6;
+    --primary-color: #633BBC;
+    --purple-dark: #451f98;
+    --white: #fff;
+    --grey: #e3dfdf;
+    --grey-dark: #454545;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+button {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #633BBC;
+}
+
+img {
+    width: 15%;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
