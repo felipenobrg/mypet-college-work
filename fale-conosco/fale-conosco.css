@@ -1,10 +1,24 @@
 :root {
-    --background-color: #F6F6F6;
-    --primary-color: #633BBC;
-    --purple-dark: #451f98;
-    --white: #fff;
-    --grey: #e3dfdf;
-    --grey-dark: #454545;
+    --main-color: #400090;
+    --purple-light: #B57AFF;
+    --purple-dark: #1D0936;
+
+
+    --orange: #FF8A00;
+    --orange-light: #FFa654;
+    --orange-dark: #DF5E00;
+
+    --black: #000000;
+
+    --grey: #DfDFDF;
+
+    --background: #FAFAFA;
+
+    --white: #FFFFFF
+
+    /* Para usar essas cores basta digitar var("Inserir a cor aqui")
+    
+    Exemplo - color: var(--black); */
 }
 
 * {
