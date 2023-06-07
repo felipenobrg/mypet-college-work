@@ -114,3 +114,8 @@ nav a:hover {
     display: flex;
     gap: 10rem;
 }
+
+.banho-tosa-titulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
