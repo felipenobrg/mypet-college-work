@@ -8,17 +8,19 @@
     --orange-light: #FFa654;
     --orange-dark: #DF5E00;
 
+    --input-color: #C4C4C4;
+
     --black: #000000;
 
-    --grey: #DfDFDF;
+    --grey: #D9D9D0;
 
     --background: #FAFAFA;
 
-    --white: #FFFFFF
+    --white: #FFFFFF;
 
-    /* Para usar essas cores basta digitar var("Inserir a cor aqui")
-    
-    Exemplo - color: var(--black); */
+    --span: #eee9e9;
+
+    --green: #00C608;
 }
 
 * {
@@ -38,27 +40,130 @@ button {
     cursor: pointer;
 }
 
-.navbar {
-    background-color: #633BBC;
+header {
+    min-width: 100%;
+    background: var(--grey);
 }
 
-img {
-    width: 15%;
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 9rem;
+}
+
+.header-container img {
+    width: 16%;
+}
+
+.header-container input {
+    min-width: 60%;
+    padding: 1rem;
+    border: none;
+    border-radius: 9px;
+}
+
+.header-container button {
+  background: var(--main-color);
+  color: var(--white);
+  padding: 0.19rem;
+  border-radius: 9px;
+  min-width: 7rem;
+}
+
+.header-container button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header-container button span {
+    color: var(--span);
+
+}
+
+.header-container button:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    font-size: 1rem;
+    min-height: 6rem;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+    min-width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+nav a:hover {
+    transition: 0.2s ease;
+    border-bottom: 2px solid var(--white);
+}
+
+.a-container {
+    display: flex;
+    gap: 10rem;
+}
+
+
+.mais-vendidos-h1 h1 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 .carousel img {
-    width: 100%;
-    height: 25rem;
+    height: 100%;
 }
 
+#produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 .btn-comprar, .btn-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
     background-color: #633BBC;
     color: #fff;
 }
 
 .btn-comprar:hover{
-    background-color: rgb(143, 245, 182);
+    background-color: var(--green);
+    color: var(--white);
 }
 
 #cabecalho .nav .nav-link.active {
@@ -66,33 +171,17 @@ img {
     color: #000;
 }
 
-#cabecalho .nav .nav-link, 
-.navbar-brand,
-.navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
-    color: #fff;
-}
-
-.navbar-toggler {
-    background-color: #eee;
-}
-
-.section-title {
-    font-family: 'Pacifico', cursive;
-    font-size:x-large;
-}
-
-.h1 {
-    font-family: 'Baloo 2', sans-serif;
-}
-
-#produtos {
-    display: flex;
-    justify-content: space-around;
-}
 
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
     }
+   
+}
+
+@media (max-width: 767px) {
+    .header-container img {
+        width: 10rem;
+    }
+
 }
