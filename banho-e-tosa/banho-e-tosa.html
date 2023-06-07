@@ -46,6 +46,79 @@
       </nav>
     
         </header>
+
+        <div class="container">
+            <h1 class="text-center">Banho e Tosa</h1>
+            <hr>
+    
+            <!-- Tabela de preços -->
+            <h2>Preços</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Cão</th>
+                        <th>Gato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Banho</td>
+                        <td>R$ 30,00</td>
+                        <td>R$ 25,00</td>
+                    </tr>
+                    <tr>
+                        <td>Tosa higiênica</td>
+                        <td>R$ 20,00</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+                    <tr>
+                        <td>Tosa completa</td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 40,00</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <!-- Formulário de agendamento -->
+            <h2>Agendar horário</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Serviço:</label>
+                    <select class="form-control" id="service" required>
+                        <option value="">Selecione o serviço</option>
+                        <option value="banho">Banho</option>
+                        <option value="tosa_hig">Tosa higiênica</option>
+                        <option value="tosa_comp">Tosa completa</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pet">Animal:</label>
+                    <select class="form-control" id="pet" required>
+                        <option value="">Selecione o animal</option>
+                        <option value="cao">Cão</option>
+                        <option value="gato">Gato</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="home_pickup">Buscar pet em casa:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="home_pickup" id="home_pickup_yes" value="yes"
+                            checked>
+                        <label class="form-check-label" for="home_pickup_yes">Sim</label>
+                        
+                    </div>
+                    <div class="form-check">
+                        
+                    </div>
         
         <section class="">
             <div class="container text-center text-md-start mt-5">
@@ -75,6 +148,8 @@
                     <a href="#!" class="text-reset">Banho e Tosa</a>
                 </p>
             </div>
+
+            
 
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4">
