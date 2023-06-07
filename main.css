@@ -21,6 +21,8 @@
     --span: #eee9e9;
 
     --green: #00C608;
+
+    --grey-text: #5a5959;
 }
 
 * {
@@ -129,15 +131,17 @@ nav a:hover {
 
 #produtos {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-left: 2rem;
+    gap: 1rem;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -145,6 +149,10 @@ nav a:hover {
     font-weight: 600;
     font-size: 1.6rem;
     margin-bottom: 1rem;
+}
+
+.card-text {
+    color: var(--grey-text);
 }
 
 .price {
