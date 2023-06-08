@@ -34,6 +34,7 @@
 body {
     background: var(--background-color);
     --webkit-font-smoothing: antialiased;
+    
 }
 
 button {
@@ -114,3 +115,64 @@ nav a:hover {
     display: flex;
     gap: 10rem;
 }
+
+.titulo-fale-conosco{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.duvidas-frequentes{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.faq{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    justify-content: space-between; 
+    margin-top: 1rem;
+    background-color:#e4e4e1;
+    align-items: center; 
+}
+
+
+section details summary{
+    background-color: #400090;
+    border-bottom: 2px solid #000000;
+    color: #FFFFFF;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.70%;
+}
+
+.resposta{
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin-left: 3rem;
+    font-size: 110%;  
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    justify-content: space-between;
+    text-align:justify; 
+}
+
+.titulo-formulario{
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    text-align: center;
+    
+}
+
+.formulario{
+    justify-content: space-between;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+
+
+
+

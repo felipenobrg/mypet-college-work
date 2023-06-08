@@ -18,8 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="fale-conosco.css" />
   </head>
-  <body>
-       
+  <body>      
        <header>
         <div class="header-container">
           <img src="../imagens/logo-my-pet.png" alt="">
@@ -44,9 +43,82 @@
         <a href="../fale-conosco/fale-conosco.html"><i class="bi bi-chat-dots"></i> FALE CONOSCO</a>
         </div>
       </nav>
-    
         </header>
+       
+        <div class="titulo-fale-conosco">
+            <h1>Central de atendimento</h1>
+            <hr>
+        </div>
+        <div class="duvidas-frequentes">
+            <h4>Dúvidas Frequentes</h4>  
         
+            <!-- FAQ para perguntas frequentes -->    
+        </div>
+        <section class="faq">
+            
+            <details>
+                <summary>Por que preciso agendar antecipadamente serviços de banho ou tosa do meu pet?</summary>
+                <div class="resposta"><p><em> <b>Nossa prioridade de atendimento sempre serão os agendamentos realizados previamente em nosso site.</b><br /><br />
+                Devido a alta demanda desses serviços em nosso Petshop e para termos um melhor controle diário sobre nossos atendimentos, recomendamos que 
+                você preencha os seus dados e do seu pet antecipadamente na área "Banho e Tosa" do nosso site. <b>Já os atendimentos presenciais para esse 
+                tipo de serviço funcionarão por meio de encaixe de horários.</b></em></p>
+                 
+                </div>
+            </details>
+
+            <details>
+                <summary>Quais as formas de pagamento aceitas em nosso Petshop?</summary>
+                <div class="resposta"><p><em>Produtos e serviços podem ser pago de diversas formas, seja online ou presencialmente em nossa loja física. No caso de compras
+                online de produtos para seu pet, aceitamos cartões de <b>crédito</b> ou <b>débito</b> com <b> parcelamento em até 5x (sendo 3x sem juros).</b>
+                Para as compras de um serviço como banho e tosa, o pagamento pode ser feito em <b>espécie, PIX ou cartão e deve ser realizado diretamente na loja, ou com nosso funcionário motorista</b>, com possibilidade de parcelamento
+                de <b>até 2x sem juros</b> no caso da <b>Tosa completa</b> (banho + tosa higiênica).
+                </em></p>   
+            </div> 
+            </details>
+            
+            <details>
+                <summary>Preciso me cadastrar para comprar produtos e/ou serviços no MyPet?</summary>
+                <div class="resposta"><p><b>Visando sua segurança, é necessário se cadastrar em nosso site, para que nós da equipe MyPet, possamos realizar uma entrega segura e de confiança.</b> Por isso
+                é importante que tenhamos acesso a algumas informações essenciais de nossos clientes no ato da compra, como nome completo, alguns documentos oficiais obrigatórios, telefone para contato, 
+                endereço e outras informações importantes.
+                </div></p>    
+            </details>
+           
+
+            <details>
+                <summary>Qual o horário de funcionamento do MyPet?</summary>
+                    <div class="resposta"><p><em>O PetShop é aberto de <b>Segunda a Sexta-feira das 8:00h às 12:00h</b> e das <b>14:00h as 19:00h</b>, 
+                    e no sábado das <b>8:00h às 13:00h</b>. <b> No Domingo não estamos em funcionamento.</b></em></div></p>
+            </details>
+        </section>
+        
+        <div class="titulo-formulario">
+            <h4>Ainda tem alguma pergunta ou dúvida?</h4>
+            <p><h4>Entre em contato preenchendo o formulário abaixo.</h4></p>
+        </div>
+        <!-- Formulário para perguntas e dúvidas --> 
+        <form>
+            <div class="formulario">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="formulario">
+                <label for="phone">Telefone:</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="formulario">
+                <label for="service">Serviço:</label>
+                <select class="form-control" id="service" required>
+                    <option value="">Selecione o serviço</option>
+                    <option value="banho">Banho</option>
+                    <option value="tosa_hig">Tosa higiênica</option>
+                    <option value="tosa_comp">Tosa completa</option>
+                </select>
+            </div>
+
+        </div>
+        <hr>
+        <footer style="margin-left: 4rem;">
         <section class="">
             <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
@@ -81,7 +153,7 @@
                     Links úteis
                 </h6>
                 <p>
-                    <a href="#!" class="text-reset">Fale conosco</a>
+                    <a href="../fale-conosco/fale-conosco.html" class="bi bi-chat-dots">Fale conosco</a>
                 </p>
                 <p>
                     <a href="https://idec.org.br/dicas-e-direitos/32-direitos-do-consumidor-que-voce-precisa-conhecer" class="text-reset">Direito do consumidor</a>
@@ -117,8 +189,6 @@
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
 </script>
-</body>
-</html>
-        
+      
 </body>
 </html>
