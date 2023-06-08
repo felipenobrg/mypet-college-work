@@ -64,11 +64,11 @@ header {
 }
 
 .header-container button {
-  background: var(--main-color);
-  color: var(--white);
-  padding: 0.19rem;
-  border-radius: 9px;
-  min-width: 7rem;
+    background: var(--main-color);
+    color: var(--white);
+    padding: 0.19rem;
+    border-radius: 9px;
+    min-width: 7rem;
 }
 
 .header-container button a {
@@ -87,7 +87,7 @@ header {
 }
 
 
-nav  {
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +115,48 @@ nav a:hover {
     gap: 10rem;
 }
 
-.banho-tosa-titulo {
-    font-family: 'Josefin Sans', sans-serif;
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+   
+}
+
+h1,
+h2 {
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.table th{
+    color: var(--main-color);
+}
+
+.form-control {
+    border-radius: 0.8rem;
+}
+
+.form-group label {
     font-weight: bold;
+    color: var(--main-color);
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--purple-dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--purple-light);
+    border-color: var(--purple-dark);
+    transform:scale(110%);
+}
+
+.btn-primary:active {
+    background-color: var(--purple-light);
+    border-color: var(--purple-dark);
 }
