@@ -172,22 +172,54 @@ details summary{
 
 
 .section-1{
+    height: 40%;
     width: 50%;
-    margin-left: rem;
+    margin-left: 7rem;
     margin-bottom: 4rem;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #e4e4e1;
     border-radius: 10px;
-    
+    margin-top: 4rem;
 }
 
 .section-2{
     background-color: red;
     width: 50%;
     justify-content: space-between;
-    flex-direction: column;
-   
+    padding: 2rem;
+    margin-right: 13rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: #e4e4e1;
 }
+
+.formulario{
+    position: relative;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    margin-top: 1px;
+    margin-top: 0;   
+}
+
+.form-group{
+    justify-content: space-between;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.form-check{
+    border-radius: 2px;
+    align-items: center;
+    margin-left: 0.5rem;   
+}
+
+form button{
+    float: right;
+    margin-right: 8px;
+    position: relative;
+}
+
 
 
 
