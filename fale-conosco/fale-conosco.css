@@ -161,51 +161,32 @@ section details summary{
     justify-content: space-between;
     margin-left: 2rem;
     margin-top: 1rem;
-    margin-right: 2rem;
-    text-align: center;
-    
+    margin-right: 7rem;
+    text-align: right;
 }
 
-.formulario{
-    justify-content: space-between;
-    margin-left: 35rem;
-    margin-right: 15rem;
-    padding: 10px;
-    align-items:center;
-    flex-direction: column;
-    background-color:#e4e4e1;
-    border-radius: 3px;
-
-}
-
-.form-div{
-    justify-content: space-between;
-    margin-top: 2rem;
-    margin-left: -20rem;
-    margin-bottom: 2rem;
-    position: relative;
-    
-}
-
-form div button{
-    display: flex;
-    border-radius: 15px;
-    padding: 8px 12px;
-    background-color: #400090;
-    color: white;
-}
 
 details summary{
     border-radius: 3px;
 }
 
-.button-enviar{
-    position: absolute;
-    top: 78.5rem;
-    left: 50.7rem;
-    border-radius: 3px;
-    padding: 2px 5px;
 
+.section-1{
+    width: 50%;
+    margin-left: rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    background-color: #e4e4e1;
+    border-radius: 10px;
+    
+}
+
+.section-2{
+    background-color: red;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+   
 }
 
 

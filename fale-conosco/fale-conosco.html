@@ -99,49 +99,43 @@
         <hr style="margin-left: 3rem; margin-right: 3rem;">
         
         <div class="titulo-formulario">
-            <h4>Ainda tem alguma dúvida?</h4>
             <p><h5>Entre em contato com nossa equipe preenchendo o formulário abaixo.</h5></p>
         </div>
        
         <!-- Formulário para perguntas e dúvidas --> 
-        
-            <form class="form-div">
-            <div class="formulario">
-                <label for="name">Nome Completo:</label>
-                <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
-            </div>
-           
-            <div class="formulario">
-                <label for="email">Email:</label>
-                <input type="text" class="form-control" id="email" placeholder="Digite seu email" required>
-                <h9>*obrigatorio</h9>              
-            </div>
-            
-            <div class="formulario">
-                <label for="phone">Telefone:</label>
-                <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone" height="px">           
-            </div>
-
-            <div class="formulario">
-                <label for="comentarios">Comentário</label>
-                <textarea name="" class="form-control" id="formulario" cols="7" rows="5" placeholder="Digite aqui sua dúvida!"></textarea>
-            </div>
-
-            <div class="formulario" >
-                <label for="checkbox"> Deseja receber notificações no email? </label><br />
-                <input type="checkbox" required>Sim<br />
-                <input type="checkbox">Não<br />      
-            </div>
-
-            <div class="button-enviar">
-                <button type="submit"> Enviar
-            </div>
-            </form>
+        <section style="display: flex; justify-content: space-between;">
+        <section class="section-1">
+            <h3>Entre em contato com nossa equipe MyPet!</h3><br>
+            <h5><b>Central de atendimento ao cliente</b></h5>
+            <h6>+ 55 83 3234 4564</h6>
+            <h6>+ 55 83 3234 4564</h6><br>
+            <h5><b>Email para contato</b></h5>
+            <h6>mypet@gmail.com</h6><br>
+            <h5><b>Horário de atendimento</b></h5>
+            <h6>Segunda a Sexta-feira das 8:00h às 12:00h e das 14:00h as 19:00h, e no sábado das 8:00h às 13:00h.</h6>
+       
         </section>
 
+        <section class="section-2">
+            <form action="banco-de-dados-my-pet"></form>
+                <label for="Name">Nome completo</label>
+                <input type="text" required>
 
-        </div>
+                <label for="Email">Email</label>
+                <input type="text" required>
+                
+                <label for="phone">Telefone</label>
+                <input type="text" required>
+
+                <label for="Comments"></label>
+                <textarea name="Comments" id="" cols="8" rows="5"></textarea>
+
+
+        </section>
+        </section>
+       
         <hr>
+
         <footer style="margin-left: 4rem;">
         <section class="">
             <div class="container text-center text-md-start mt-5">
