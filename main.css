@@ -94,7 +94,12 @@ header {
     cursor: pointer;
  }
 
- .header-container .cart:hover {
+ .header-container .cart a {
+    text-decoration: none;
+    color: var(--main-color);
+ }
+
+ .header-container .cart a:hover {
     color: var(--green);
  }
 
