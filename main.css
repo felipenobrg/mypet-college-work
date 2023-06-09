@@ -88,6 +88,16 @@ header {
     transform: scale(1.1);
 }
 
+.header-container .cart {
+    font-size: 2rem;
+    color: var(--main-color);
+    cursor: pointer;
+ }
+
+ .header-container .cart:hover {
+    color: var(--green);
+ }
+
 
 nav  {
     display: flex;
@@ -118,6 +128,7 @@ nav a:hover {
 }
 
 
+
 .mais-vendidos-h1 h1 {
     margin-top: 2rem;
     margin-left: 1rem;
@@ -125,8 +136,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-.carousel img {
-    height: 100%;
+.carousel-item img {
+    height: 20rem;
 }
 
 #produtos {
@@ -135,6 +146,7 @@ nav a:hover {
     justify-content: space-between;
     margin-left: 2rem;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .card-body {
@@ -146,6 +158,7 @@ nav a:hover {
 }
 
 .card-title {
+    text-align: center;
     font-weight: 600;
     font-size: 1.6rem;
     margin-bottom: 1rem;
@@ -170,14 +183,12 @@ nav a:hover {
 }
 
 .btn-comprar:hover{
+    transition: 0.3s ease;
     background-color: var(--green);
     color: var(--white);
 }
 
-#cabecalho .nav .nav-link.active {
-    background-color: #fff;
-    color: #000;
-}
+
 
 
 @media (max-width: 767px) {
