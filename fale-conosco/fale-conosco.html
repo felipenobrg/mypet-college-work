@@ -47,8 +47,10 @@
        
         <div class="titulo-fale-conosco">
             <h1>Central de atendimento</h1>
-            <hr>
         </div>
+
+        <hr style="margin-left: 2rem; margin-right: 2rem;">
+       
         <div class="duvidas-frequentes">
             <h4>Dúvidas Frequentes</h4>  
         
@@ -91,30 +93,52 @@
                     e no sábado das <b>8:00h às 13:00h</b>. <b> No Domingo não estamos em funcionamento.</b></em></div></p>
             </details>
         </section>
+
+        <br>
+
+        <hr style="margin-left: 3rem; margin-right: 3rem;">
         
         <div class="titulo-formulario">
-            <h4>Ainda tem alguma pergunta ou dúvida?</h4>
-            <p><h4>Entre em contato preenchendo o formulário abaixo.</h4></p>
+            <h4>Ainda tem alguma dúvida?</h4>
+            <p><h5>Entre em contato com nossa equipe preenchendo o formulário abaixo.</h5></p>
         </div>
+       
         <!-- Formulário para perguntas e dúvidas --> 
-        <form>
+        
+            <form class="form-div">
             <div class="formulario">
-                <label for="name">Nome:</label>
-                <input type="text" class="form-control" id="name" required>
+                <label for="name">Nome Completo:</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
             </div>
+           
+            <div class="formulario">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="Digite seu email" required>
+                <h9>*obrigatorio</h9>              
+            </div>
+            
             <div class="formulario">
                 <label for="phone">Telefone:</label>
-                <input type="tel" class="form-control" id="phone" required>
+                <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone" height="px">           
             </div>
+
             <div class="formulario">
-                <label for="service">Serviço:</label>
-                <select class="form-control" id="service" required>
-                    <option value="">Selecione o serviço</option>
-                    <option value="banho">Banho</option>
-                    <option value="tosa_hig">Tosa higiênica</option>
-                    <option value="tosa_comp">Tosa completa</option>
-                </select>
+                <label for="comentarios">Comentário</label>
+                <textarea name="" class="form-control" id="formulario" cols="7" rows="5" placeholder="Digite aqui sua dúvida!"></textarea>
             </div>
+
+            <div class="formulario" >
+                <label for="checkbox"> Deseja receber notificações no email? </label><br />
+                <input type="checkbox" required>Sim<br />
+                <input type="checkbox">Não<br />      
+            </div>
+
+            <div class="button-enviar">
+                <button type="submit"> Enviar
+            </div>
+            </form>
+        </section>
+
 
         </div>
         <hr>
