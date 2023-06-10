@@ -150,11 +150,26 @@ nav a:hover {
     gap: 10rem;
 }
 
+.frete-gratis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    gap: 0.6rem;
+    width: 100%;
+    background: #edecec;
+}
+
+.frete-gratis i {
+    font-size: 1.5rem;
+}
+
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem;
 }
 
 .cupom {
