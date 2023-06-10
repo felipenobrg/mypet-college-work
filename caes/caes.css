@@ -115,6 +115,10 @@ nav {
     margin-bottom: 0.5rem;
     color: var(--white);
     min-width: 100%;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
 }
 
 nav a {
@@ -137,8 +141,10 @@ nav a:hover {
 .sub-header {
     background-color: var(--grey);
     width: 100%;
-    height: 50px;
+    height: 60px;
     padding-top: 0px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -147,6 +153,9 @@ nav a:hover {
     color: #1D0936;
     font-weight: bold;
     text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+
 }
 
 
@@ -173,13 +182,14 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: var(--purple-dark)
 }
 
 .card-title {
     font-weight: 600;
     font-size: 1.6rem;
     margin-bottom: 1rem;
-}
+        }
 
 .price {
     font-size: 1.5rem;
@@ -200,12 +210,40 @@ nav a:hover {
     background-color: var(--green);
     color: var(--white);
 }
+.btn-custom {
+    width: auto;
+    max-width: 200px; 
+}
+
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: #000;
 }
 
+#estoque{
+    background-color: #fff;
+    color: var(--green);
+    font-weight: bold;
+}
+
+  
+.produto-container {
+    display: flex;
+  }
+  
+  .produto-img {
+    flex: 1;
+  }
+  .produto-img-dtl{
+    margin-left: 500px; 
+  }
+  
+  .produto-descricao {
+    flex: 1;
+    margin-top: 50px;
+  }
+  
 
 @media (max-width: 767px) {
     .carousel-item img {
