@@ -322,6 +322,16 @@ h5 {
     font-weight: bold;
 }
 
+.button-pagamentos a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.button-pagamentos a:hover {
+    color: var(--grey);
+    transition: 0.3s ease;
+}
+
 .button-pagamentos:hover {
     transition: 0.3s ease;
     background: var(--button-pagamentos-hover);
@@ -336,6 +346,7 @@ h5 {
     border-radius: 9px;
     font-weight: bold;
 }
+
 
 .button-escolher-produtos:hover {
     border: 1px solid var(--button-pagamentos-hover);
