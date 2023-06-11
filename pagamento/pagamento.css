@@ -142,7 +142,7 @@ h1 {
 
 .carteira-mypet {
     border: 1px solid var(--grey);
-    width: 50%;
+    width: 67%;
     padding: 1rem;
     border-radius: 9px;
     margin-left: 2rem;
@@ -171,4 +171,17 @@ h1 {
     justify-content: center;
     flex-direction: column;
     margin-left: 2.2rem;
+    width: 100%;
+}
+
+.btn {
+    background: var(--main-color);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.btn:hover {
+    transition: 0.3s ease;
+    background: var(--green);
 }

@@ -16,6 +16,12 @@
 
 <body>
 
+  <script>
+    function redirecionar() {
+      window.location.href = 'outra_pagina.html';
+    }
+  </script>
+
   <header>
     <div class="header-container">
       <img src="../imagens/logo-my-pet.png" alt="">
@@ -65,35 +71,32 @@
       <ul class="list-group mb-3">
         <li class="list-group-item d-flex justify-content-between lh-condensed">
           <div>
-            <h6 class="my-0">Nome do produto</h6>
-            <small class="text-muted">Breve descrição</small>
+            <h6 class="my-0">Ração Golden Special para Cães Adulto</h6>
           </div>
-          <span class="text-muted">R$12</span>
+          <span class="text-muted">R$149,90</span>
         </li>
         <li class="list-group-item d-flex justify-content-between lh-condensed">
           <div>
-            <h6 class="my-0">Segundo produto</h6>
-            <small class="text-muted">Breve descrição</small>
+            <h6 class="my-0">Ração GranPlus Gourmet</h6>
           </div>
-          <span class="text-muted">R$8</span>
+          <span class="text-muted">R$62,90</span>
         </li>
         <li class="list-group-item d-flex justify-content-between lh-condensed">
           <div>
-            <h6 class="my-0">Terceiro item</h6>
-            <small class="text-muted">Breve descrição</small>
+            <h6 class="my-0">Coleira Modernpet Elástica</h6>
           </div>
-          <span class="text-muted">R$5</span>
+          <span class="text-muted"> R$29,99</span>
         </li>
         <li class="list-group-item d-flex justify-content-between bg-light">
           <div class="text-success">
             <h6 class="my-0">Código de promoção</h6>
-            <small>CODIGOEXEMEPLO</small>
+            <small>MYPET30</small>
           </div>
-          <span class="text-success">-R$5</span>
+          <span class="text-success">- R$72,83</span>
         </li>
         <li class="list-group-item d-flex justify-content-between">
           <span>Total (BRL)</span>
-          <strong>R$20</strong>
+          <strong>R$169,96</strong>
         </li>
       </ul>
 
@@ -162,6 +165,32 @@
             <select class="custom-select d-block w-100" id="estado" required>
               <option value="">Escolha...</option>
               <option>Acre</option>
+              <option>Alagoas</option>
+              <option>Amapá</option>
+              <option>Amazonas</option>
+              <option>Bahia</option>
+              <option>Ceará</option>
+              <option>Distrito Federal</option>
+              <option>Espírito Santo</option>
+              <option>Goiás</option>
+              <option>Maranhão</option>
+              <option>Mato Grosso</option>
+              <option>Mato Grosso do Sul</option>
+              <option>Minas Gerais</option>
+              <option>Pará</option>
+              <option>Paraíba</option>
+              <option>Paraná</option>
+              <option>Pernambuco</option>
+              <option>Piauí</option>
+              <option>Rio de Janeiro</option>
+              <option>Rio Grande do Norte</option>
+              <option>Rio Grande do Sul</option>
+              <option>Rondônia</option>
+              <option>Roraima</option>
+              <option>Santa Catarina</option>
+              <option>São Paulo</option>
+              <option>Sergipe</option>
+              <option>Tocantins</option>
             </select>
             <div class="invalid-feedback">
               Por favor, insira um estado válido.
@@ -236,7 +265,7 @@
           </div>
         </div>
         <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Finalizar pagamento</button>
+        <a class="btn" href="./pagamento-concluido/pagamento-concluido.html">Finalizar pagamento</a>
       </form>
     </div>
   </div>
