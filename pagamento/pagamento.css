@@ -1,0 +1,132 @@
+:root {
+    --main-color: #400090;
+    --purple-light: #B57AFF;
+    --purple-dark: #1D0936;
+
+
+    --orange: #FF8A00;
+    --orange-light: #FFa654;
+    --orange-dark: #DF5E00;
+
+    --input-color: #C4C4C4;
+
+    --black: #000000;
+
+    --grey: #D9D9D0;
+
+    --background: #FAFAFA;
+
+    --white: #FFFFFF;
+
+    --span: #eee9e9;
+
+    --green: #00C608;
+
+    --grey-text: #5a5959;
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    min-width: 100%;
+    background: var(--grey);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 9rem;
+}
+
+.header-container img {
+    width: 16%;
+}
+
+.header-container input {
+    min-width: 60%;
+    padding: 1rem;
+    border: none;
+    border-radius: 9px;
+}
+
+.header-container button {
+    background: var(--main-color);
+    color: var(--white);
+    padding: 0.19rem;
+    border-radius: 9px;
+    min-width: 7rem;
+}
+
+.header-container button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header-container button span {
+    color: var(--span);
+
+}
+
+.header-container button:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.header-container .cart {
+    font-size: 2rem;
+    color: var(--main-color);
+    cursor: pointer;
+ }
+
+ .header-container .cart a {
+    text-decoration: none;
+    color: var(--main-color);
+ }
+
+ .header-container .cart a:hover {
+    color: var(--green);
+ }
+
+ nav  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    font-size: 1rem;
+    min-height: 6rem;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+    min-width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+nav a:hover {
+    transition: 0.2s ease;
+    border-bottom: 2px solid var(--white);
+}
+
+.a-container {
+    display: flex;
+    gap: 10rem;
+}
