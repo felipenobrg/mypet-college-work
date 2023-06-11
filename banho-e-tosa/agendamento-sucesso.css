@@ -1,0 +1,41 @@
+:root {
+    --main-color: #400090;
+    --purple-light: #B57AFF;
+    --purple-dark: #1D0936;
+
+
+    --orange: #FF8A00;
+    --orange-light: #FFa654;
+    --orange-dark: #DF5E00;
+
+    --input-color: #C4C4C4;
+
+    --black: #000000;
+
+    --grey: #D9D9D0;
+
+    --background: #FAFAFA;
+
+    --white: #FFFFFF;
+
+    --span: #eee9e9;
+
+    --green: #00C608;
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+h1, th {
+    color: var(--main-color);
+}

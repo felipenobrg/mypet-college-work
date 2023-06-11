@@ -175,3 +175,8 @@ h2 {
     background-color: var(--purple-light);
     border-color: var(--purple-dark);
 }
+
+.link-agendamento {
+    text-decoration: none;
+    color: #fff;
+}
