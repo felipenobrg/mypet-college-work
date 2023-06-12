@@ -142,7 +142,7 @@ h1 {
 
 .carteira-mypet {
     border: 1px solid var(--grey);
-    width: 67%;
+    width: 40%;
     padding: 1rem;
     border-radius: 9px;
     margin-left: 2rem;
@@ -168,10 +168,10 @@ h1 {
 .pagamento-container {
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     margin-left: 2.2rem;
-    width: 100%;
+
 }
 
 .btn {
