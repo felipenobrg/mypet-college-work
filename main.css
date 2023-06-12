@@ -183,7 +183,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     gap: 0.3rem;
-    background-color: #633BBC;
+    background-color: var(--main-color);
     color: #fff;
 }
 
