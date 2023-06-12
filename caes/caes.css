@@ -145,6 +145,7 @@ nav a:hover {
     padding-top: 0px;
     display: flex;
     align-items: center;
+ 
 
 }
 
@@ -230,17 +231,24 @@ nav a:hover {
   
 .produto-container {
     display: flex;
+    flex-direction: column;
   }
   
   .produto-img {
-    flex: 1;
+    flex: 0.5;
   }
   .produto-img-dtl{
-    margin-left: 500px; 
+    display: flex;
+    flex-basis: 0rem;
+    margin-left: 30rem;
+    align-items: flex-start;
+     
   }
   
   .produto-descricao {
-    flex: 1;
+    display: grid;
+    margin-left: 1rem;
+    flex: 1.2;
     margin-top: 50px;
   }
   
@@ -257,4 +265,14 @@ nav a:hover {
         width: 10rem;
     }
 
+}
+@media (min-width: 768px) {
+    .produto-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .produto-img {
+        margin-bottom: 0;
+    }
 }
