@@ -23,6 +23,10 @@
     --green: #00C608;
 
     --grey-text: #5a5959;
+
+    --font-color-cupom: #175EA8;
+
+    --button-pagamentos-hover: #00A1E4;
 }
 
 * {
@@ -111,7 +115,7 @@ nav  {
     background: var(--main-color);
     font-size: 1rem;
     min-height: 6rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.28rem;
     color: var(--white);
     min-width: 100%;
 }
@@ -131,8 +135,6 @@ nav a:hover {
     display: flex;
     gap: 10rem;
 }
-
-
 
 .mais-vendidos-h1 h1 {
     margin-top: 2rem;
