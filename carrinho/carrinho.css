@@ -88,7 +88,6 @@ header {
 
 .header-container button span {
     color: var(--span);
-
 }
 
 .header-container button:hover {
@@ -97,7 +96,6 @@ header {
 }
 
 .header-container .cart {
-    font-size: 2.3rem;
     color: var(--main-color);
     cursor: pointer;
  }
@@ -113,6 +111,7 @@ header {
  }
 
  .header-container .cart a {
+    font-size: 2.3rem;
     text-decoration: none;
     color: var(--main-color);
  }
