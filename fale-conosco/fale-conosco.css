@@ -177,7 +177,7 @@ section details summary{
     justify-content: space-between;
     margin-left: 2rem;
     margin-top: 1rem;
-    margin-right: 7rem;
+    margin-right: 3rem;
     text-align: right;
 }
 
@@ -190,12 +190,12 @@ details summary{
 .section-1{
     height: 40%;
     width: 50%;
-    margin-left: 7rem;
+    margin-left: 10rem;
     margin-bottom: 4rem;
     padding: 2rem;
     background-color: #e4e4e1;
     border-radius: 10px;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .section-2{
@@ -203,7 +203,7 @@ details summary{
     width: 50%;
     justify-content: space-between;
     padding: 2rem;
-    margin-right: 13rem;
+    margin-right: 15rem;
     margin-left: 20rem;
     margin-bottom: 2rem;
     border-radius: 10px;
@@ -212,7 +212,7 @@ details summary{
 
 .formulario{
     position: relative;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
     flex-direction: column;
     margin-top: 1px;
     margin-top: 0;   

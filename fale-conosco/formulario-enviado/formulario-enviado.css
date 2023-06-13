@@ -131,3 +131,17 @@ nav a:hover {
     display: flex;
     gap: 10rem;
 }
+
+.titulo{
+    padding: 3px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.mensagem{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    margin-top: 3.5rem;
+}

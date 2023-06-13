@@ -6,7 +6,7 @@
 </p>
 
 <h3 align="center">O projeto apresenta 6 links principais:</h3>
-<p align="center">● Home ● Cães ● Gatos ● Banho e tosa ● Fale Conosco ● Carrinho</p>
+<p align="center">• Home • Cães • Gatos • Banho e tosa • Fale Conosco • Carrinho</p>
 
 <p align="center">
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
