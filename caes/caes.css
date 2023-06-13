@@ -191,6 +191,9 @@ nav a:hover {
     font-size: 1.6rem;
     margin-bottom: 1rem;
         }
+.card-text {
+    color: var(--purple-dark);
+}
 
 .price {
     font-size: 1.5rem;
@@ -212,8 +215,10 @@ nav a:hover {
     color: var(--white);
 }
 .btn-custom {
-    width: auto;
-    max-width: 200px; 
+    display: flex !important; 
+    align-items: flex-end !important;
+    width: auto !important;
+    max-width: 200px !important; 
 }
 
 
