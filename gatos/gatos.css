@@ -89,7 +89,7 @@ header {
 }
 
 .header-container .cart {
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: var(--main-color);
     cursor: pointer;
 }
