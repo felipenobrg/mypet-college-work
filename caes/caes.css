@@ -258,17 +258,12 @@ nav a {
   }
   .produto-img-dtl{
     display: flex;
-    flex-basis: 0rem;
-    margin-left: 30rem;
-    align-items: flex-start;
+    align-items: center;
      
   }
   
   .produto-descricao {
-    display: grid;
-    margin-left: 1rem;
-    flex: 1.2;
-    margin-top: 50px;
+    display: block;
   }
   
 
