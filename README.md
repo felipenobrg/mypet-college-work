@@ -2,7 +2,7 @@
 <h2 align="center">Pet Shop Online</h2>
 
 <p align="center">
-  <img width="914" alt="2023-05-12" src="https://github.com/felipenobrg/mypet-trabalho-daniel-brandao/assets/122055576/bbf6ce97-3951-4246-ab42-eb9da802f727">
+  <img width="914" alt="2023-05-12" src="https://github.com/felipenobrg/mypet-trabalho-daniel-brandao/assets/122055576/4524efae-4ca1-488a-8cb5-830a2b3d0e5e">
 </p>
 
 <h3 align="center">O projeto apresenta 6 links principais:</h3>
@@ -17,7 +17,7 @@
 ## 🔖 Layout
 
 <p align="center">
-  <img width="914" alt="2023-05-12" src="https://github.com/felipenobrg/mypet-trabalho-daniel-brandao/assets/122055576/bbf6ce97-3951-4246-ab42-eb9da802f727">
+  <img width="914" alt="2023-05-12" src="https://github.com/felipenobrg/mypet-trabalho-daniel-brandao/assets/122055576/b903aa5b-521a-457b-84bd-da74070350fb">
 </p>
 
 ## 🚀 Tecnologias
