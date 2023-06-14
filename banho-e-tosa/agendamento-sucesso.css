@@ -36,6 +36,12 @@ body {
     --webkit-font-smoothing: antialiased;
 }
 
-h1, th {
+.sub-header-h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #1D0936;
+    font-weight: bold;
+  }
+
+  th {
     color: var(--main-color);
-}
+  }
