@@ -92,16 +92,38 @@ header {
     font-size: 2.3rem;
     color: var(--main-color);
     cursor: pointer;
- }
-
- .header-container .cart a {
+    position: relative;
+  }
+  
+  .header-container .cart a {
     text-decoration: none;
     color: var(--main-color);
- }
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-container .cart i {
+    margin-right: 5px;
+  }
+  
+  .header-container .cart .item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    min-width: 21px;
+    height: 21px;
+    font-size: 0.85rem;
+    background: var(--green);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
- .header-container .cart a:hover {
-    color: var(--green);
- }
+  .header-container .cart i:hover {
+    transform: scale(1.1);
+  }
 
 
 nav  {
