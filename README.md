@@ -5,12 +5,12 @@
   <img width="914" alt="2023-05-12" src="https://github.com/felipenobrg/mypet-trabalho-daniel-brandao/assets/122055576/4524efae-4ca1-488a-8cb5-830a2b3d0e5e">
 </p>
 
-<h3 align="center">O projeto apresenta 6 links principais:</h3>
+<h3 align="center">The project features 6 main links:</h3>
 <p align="center">• Home • Cães • Gatos • Banho e tosa • Fale Conosco • Carrinho</p>
 
 <p align="center">
-  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>
 </p>
 
@@ -20,23 +20,23 @@
   <img width="914" alt="2023-05-12" src="https://github.com/felipenobrg/mypet-trabalho-daniel-brandao/assets/122055576/b903aa5b-521a-457b-84bd-da74070350fb">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+The project was developed with the following technologies:
 
 - Bootstrap
 - CSS
 - HTML
 - Git
 
-## ✨ Projeto
+## ✨ Project
 
 <p align="center">
-  <a href="https://mypet-trabalho-daniel-brandao.vercel.app/">Link para acessar o projeto</a>
+  <a href="https://mypet-trabalho-daniel-brandao.vercel.app/">Link to acess the project</a>
 </p>
 
 ---
 
 <p align="center">
-  Projeto desenvolvido para a matéria de Aplicações para Internet, do professor Daniel Brandão.
+  Project developed for the Internet Applications course, by professor Daniel Brandão.
 </p>
